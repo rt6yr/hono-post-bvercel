@@ -1,0 +1,16 @@
+{
+  "type": "module", 
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+       "@vercel/node": "^3.2.29",
+    "hono": "^4.6.13",
+    "typescript": "^5.7.2",
+    "vercel": "^39.2.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.4.1"
+  }
+}
