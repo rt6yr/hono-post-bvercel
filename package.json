@@ -8,7 +8,11 @@
        "@vercel/node": "^3.2.29",
     "hono": "^4.6.13",
     "typescript": "^5.7.2",
-    "vercel": "^39.2.0"
+    "vercel": "^39.2.0",
+        "jose": "^5.9.6",
+    "jsonwebtoken": "^9.0.2",
+    "jwt": "^0.2.0",
+    "mongodb": "^6.11.0"
   },
   "devDependencies": {
     "vercel": "^32.4.1"
