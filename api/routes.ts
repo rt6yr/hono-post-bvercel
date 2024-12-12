@@ -5,7 +5,7 @@ export const app = new Hono().basePath('/api');
 
 
 // Handle /api/payload with JWT validation
-app.post('/payload', async (c) => {
+app.post('/payload/*', async (c) => {
   const jwt = c.req.headers.get('Authorization')?.split(' ')[1]; // Extract token from Bearer header
   if (!jwt) {
     return c.json({ error: 'Missing or invalid JWT' }, 401);
